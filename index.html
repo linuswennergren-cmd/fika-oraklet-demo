@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fika Oraklet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="hero">
+      <p class="eyebrow">Demo project</p>
+      <h1>Fika Oraklet</h1>
+      <p class="intro">
+        Ett fullkomligt ovetenskapligt verktyg som avgor vad din nasta fika borde vara.
+      </p>
+    </section>
+
+    <section class="oracle-card">
+      <div class="glow glow-left"></div>
+      <div class="glow glow-right"></div>
+
+      <p class="label">Dagens dom</p>
+      <h2 id="result-title">Tryck pa knappen</h2>
+      <p id="result-description" class="result-description">
+        Oraklet star och varmer upp sina mystiska bageri-krafter.
+      </p>
+
+      <button id="oracle-button" type="button">Frag Fika Oraklet</button>
+
+      <ul class="stats">
+        <li>
+          <span class="stat-value" id="result-energy">-</span>
+          <span class="stat-label">Energi</span>
+        </li>
+        <li>
+          <span class="stat-value" id="result-chaos">-</span>
+          <span class="stat-label">KaosnivÃ¥</span>
+        </li>
+        <li>
+          <span class="stat-value" id="result-weather">-</span>
+          <span class="stat-label">Vaderstamning</span>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
